@@ -1,0 +1,43 @@
+{
+  "name": "orm-test",
+  "version": "1.0.0",
+  "description": "Aplicación fullstack con TypeScript, MikroORM y SQLite",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/server.js",
+    "server": "node dist/server.js",
+    "init": "npm run build && node dist/init.js",
+    "init:db": "node dist/init.js",
+    "demo": "node dist/index.js",
+    "dev": "npm run build && npm run server",
+    "clean": "if exist dist rmdir /s /q dist",
+    "rebuild": "npm run clean && npm run build",
+    "full-start": "npm run rebuild && npm run init:db && npm run server"
+  },
+  "keywords": ["typescript", "mikroorm", "sqlite", "fullstack", "orm", "database", "crud"],
+  "author": {
+    "name": "Sergie Code",
+    "url": "https://www.instagram.com/sergiecode",
+    "email": "contact@sergiecode.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiecode"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^5.9.0",
+    "@mikro-orm/core": "^5.9.0",
+    "@mikro-orm/sqlite": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "mikro-orm": {
+    "useTsNode": false,
+    "configPaths": [
+      "./dist/mikro-orm.config.js"
+    ]
+  }
+}

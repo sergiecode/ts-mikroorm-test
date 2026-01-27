@@ -1,0 +1,91 @@
+# Sistema de Gestión - TypeScript + MikroORM + SQLite
+# Autor: Sergie Code (@sergiecode)
+
+# Dependencies
+node_modules/
+dist/node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+*.js.map
+
+# Database
+database.sqlite
+database.sqlite-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - IntelliJ / WebStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Testing
+.cache/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# MikroORM CLI
+temp/
+.mikro-orm-cache/
+
+# Backup files
+*.bak
+*.backup
