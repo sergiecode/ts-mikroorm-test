@@ -186,10 +186,6 @@ Software Engineer especializado en Frontend y Tech Lead con experiencia en empre
 
 ---
 
-## 📄 Licencia
-
-ISC
-
 ## 🤝 Contribuciones
 
 Este proyecto es de código abierto y las contribuciones son bienvenidas. Si encuentras algún bug o tienes sugerencias de mejora, no dudes en abrir un issue o enviar un pull request.
@@ -197,3 +193,4 @@ Este proyecto es de código abierto y las contribuciones son bienvenidas. Si enc
 ---
 
 ⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub y seguir a [@sergiecode](https://www.instagram.com/sergiecode) para más contenido educativo sobre programación.
+
